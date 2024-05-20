@@ -1,0 +1,6 @@
+python -u link_pred.py --dataset_str cora --lr 0.01 --batch_size 128 --num_layers 2 --hidden_channels 64 --mechanism hds --eps 1.0 --alpha 0.1 --rmax 0.0005 --rrz 0.5 --drop_prob 0.3 --reg_lambda 0.05 --m 1
+python -u link_pred.py --dataset_str citeseer --lr 0.01 --batch_size 128 --num_layers 2 --hidden_channels 64 --mechanism hds --eps 1.0 --alpha 0.1 --rmax 0.0001 --rrz 0.2 --drop_prob 0.7 --reg_lambda 0.0 --m 1
+python -u link_pred.py --dataset_str pubmed --lr 0.01 --batch_size 128 --num_layers 2 --hidden_channels 64 --mechanism hds --eps 1.0 --alpha 0.1 --rmax 1e-05 --rrz 0.3 --drop_prob 0.1 --reg_lambda 0.0 --m 1
+python -u link_pred.py --dataset_str lastfm --lr 0.01 --batch_size 128 --num_layers 2 --hidden_channels 64 --mechanism hds --eps 1.0 --alpha 0.1 --rmax 1e-05 --rrz 0.1 --drop_prob 0.7 --reg_lambda 0.0 --m 1
+python -u link_pred.py --dataset_str facebook --lr 0.01 --batch_size 128 --num_layers 2 --hidden_channels 64 --mechanism hds --eps 1.0 --alpha 0.1 --rmax 0.0001 --rrz 0.1 --drop_prob 0.1 --reg_lambda 0.0 --m 1
+python -u link_pred.py --dataset_str wikipedia --lr 0.001 --batch_size 512 --num_layers 3 --hidden_channels 64 --mechanism hds --eps 1.0 --alpha 0.1 --rmax 5e-05 --rrz 0.5 --drop_prob 0.1 --reg_lambda 0.0 --m 3

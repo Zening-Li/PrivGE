@@ -1,0 +1,6 @@
+python -u classification.py --dataset_str cora --lr 0.01 --batch_size 64 --num_layers 2 --hidden_channels 128 --mechanism hds --eps 1.0 --alpha 0.1 --rmax 1e-05 --rrz 0.1 --drop_prob 0.7 --reg_lambda 0.0005 --m 20
+python -u classification.py --dataset_str citeseer --lr 0.01 --batch_size 128 --num_layers 2 --hidden_channels 128 --mechanism hds --eps 1.0 --alpha 0.05 --rmax 0.0001 --rrz 0.5 --drop_prob 0.7 --reg_lambda 0.0005 --m 5
+python -u classification.py --dataset_str pubmed --lr 0.01 --batch_size 64 --num_layers 3 --hidden_channels 128 --mechanism hds --eps 1.0 --alpha 0.05 --rmax 1e-05 --rrz 0.1 --drop_prob 0.5 --reg_lambda 0.0 --m 1
+python -u classification.py --dataset_str lastfm --lr 0.01 --batch_size 16 --num_layers 2 --hidden_channels 64 --mechanism hds --eps 1.0 --alpha 0.1 --rmax 1e-05 --rrz 0.1 --drop_prob 0.5 --reg_lambda 0.0005 --m 5
+python -u classification.py --dataset_str facebook --lr 0.01 --batch_size 256 --num_layers 3 --hidden_channels 256 --mechanism hds --eps 1.0 --alpha 0.05 --rmax 1e-05 --rrz 0.1 --drop_prob 0.1 --reg_lambda 0.0005 --m 50
+python -u classification.py --dataset_str wikipedia --lr 0.01 --batch_size 16 --num_layers 2 --hidden_channels 64 --mechanism hds --eps 1.0 --alpha 0.05 --rmax 0.0001 --rrz 0.1 --drop_prob 0.1 --reg_lambda 0.0005 --m 20

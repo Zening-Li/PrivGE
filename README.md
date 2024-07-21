@@ -1,5 +1,5 @@
 # PrivGE
-This repository contains code for CIKM 2024 paper titled [Privacy-Preserving Graph Embedding based on Local Differential Privacy](https://arxiv.org/abs/2310.11060).
+This repository contains code for CIKM 2024 paper titled [Privacy-Preserving Graph Embedding based on Local Differential Privacy](https://doi.org/10.1145/3627673.3679759).
 
 # Getting Started
 ## Requirements
@@ -28,7 +28,7 @@ bash link_prediction.sh
 # Citation
 Please cite our paper if you use the code in your work:
 ```
-@inproceedings{li2023locally,
+@inproceedings{10.1145/3627673.3679759,
   author = {Li, Zening and Li, Rong-Hua and Liao, Meihao and Jin, Fusheng and Wang, Guoren},
   title = {Privacy-Preserving Graph Embedding based on Local Differential Privacy},
   year = {2024},
